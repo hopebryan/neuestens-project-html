@@ -6041,7 +6041,7 @@ a:focus, a:active, a:visited {
     opacity: 0.8; }
 
 #channels .channel-wrap {
-  margin: 96px 0 30px;
+  margin: 60px 0 30px;
   position: relative;
   width: 100%;
   display: inline-block;
@@ -6230,7 +6230,8 @@ a:focus, a:active, a:visited {
     padding: 20px;
     background: #fd0f3b;
     position: relative;
-    min-height: 94px; }
+    min-height: 94px;
+    margin-top: 113px; }
     #search .container-search .search-icon {
       border-style: none;
       top: 25px;
@@ -6448,6 +6449,7 @@ header {
 
 #contact .contact-wrapper {
   position: relative;
+  margin-top: 113px;
   width: 100%;
   display: inline-block;
   background: #fd0f3b;
@@ -6475,6 +6477,7 @@ header {
 
 #contact .contact-wrapper {
   position: relative;
+  margin-top: 113px;
   width: 100%;
   display: inline-block;
   background: #fd0f3b;
