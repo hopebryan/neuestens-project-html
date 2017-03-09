@@ -1,0 +1,89 @@
+#wissen{
+	.wissen-content{
+		background: transparent;
+	    bottom: 20px;
+	    position: absolute;
+	    padding: 25px;
+	    width: 100%;
+		img{
+			display: inline-block;
+    		width: 200px;
+    		margin: 30px 0;
+		}
+		h2, h3{
+			a{
+				color: #fff;
+				&:hover{
+					text-decoration: none;
+					color: #ff0b38;
+				}
+			}
+		}
+		p{
+			font-size: 30px;
+			color: #fff;
+		}
+		.fa{
+			top: 170px;
+			background: #014a80;
+			webkit-box-shadow: 0 0 0 10px rgba(0, 148, 255, 0.3);
+			box-shadow: 0 0 0 10px rgba(0, 148, 255, 0.3);
+		}
+	}
+	.content-tags{
+		border-bottom: 3px solid #014a80;
+		.fa-plus{
+			top: -41px;
+			background: #014a80;
+			webkit-box-shadow: 0 0 0 10px rgba(0, 148, 255, 0.3);
+			box-shadow: 0 0 0 10px rgba(0, 148, 255, 0.3);
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 930px){
+	#wissen{
+		.wissen-content{
+			bottom: 10px;
+			img{
+	    		width: 100px;
+			}
+			p{
+				font-size: 26px;
+			}
+			.fa{
+				top: 60px;
+			    font-size: 26px;
+			    padding: 20px 22px;
+			}
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: 500px){
+	#wissen{
+		.wissen-content{
+			bottom: 0px;
+			img{
+	    		width: 100px;
+			}
+			h3{
+				font-size: 18px;
+			}
+			.fa{
+				top: 60px;
+			    padding: 15px 17px;
+				font-size: 16px;
+				right: 32px;
+			}
+			p{
+				font-size: 20px;
+			}
+		}
+	}
+}

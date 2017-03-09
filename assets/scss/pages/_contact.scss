@@ -1,0 +1,35 @@
+#contact{
+	.contact-wrapper{
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		background: #fd0f3b;
+		color: #fff;
+		text-align: center;
+		.contact-info{
+			padding: 30px;
+			p{
+				margin-bottom: 2px;
+				span{
+					display: block;
+					padding-bottom: 30px;
+				}
+				a{
+					text-decoration: underline;
+					color: #fff;
+					&:hover{
+						color: #6c0014;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.contact-map{
+			background: url(../images/map.jpg) no-repeat center;
+			background-size: cover;
+			width: 100%;
+			padding: 100px 20px 200px;
+			margin: 0;
+		}
+	}
+}

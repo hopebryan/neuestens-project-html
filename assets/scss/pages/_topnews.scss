@@ -1,0 +1,12 @@
+#over-all-wrapper{
+    .wrapper-all{
+    	section{
+    		.wrapper{
+    			margin-top: 0 !important;
+    		}
+    	}
+		section:first-child{
+			margin-top: 113px;
+		}
+    }
+}

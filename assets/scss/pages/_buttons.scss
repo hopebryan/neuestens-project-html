@@ -1,0 +1,35 @@
+a:focus, a:active, a:visited{
+	outline: 0;
+}
+
+
+.button{
+	padding: 10px 50px;
+	background: #fd0f3b;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	border-radius: 50px;
+	text-decoration: none;
+	margin: 25px 0 0;
+	display: inline-block;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+
+
+.fa{
+	padding: 25px 27px;
+	background: transparent;
+    border-radius: 100%;
+    font-size: 35px;
+    color: #fff;
+    right: 45px;
+    float: right;
+    position: absolute;
+    &:hover{
+    	opacity: 0.8;
+    }
+}

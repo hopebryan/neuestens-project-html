@@ -1,0 +1,42 @@
+#impressum{
+	width: 100%;
+	h2{
+		margin-top: 80px;
+	    background-color: #fd0f3b;
+	    width: 100%;
+	    padding: 20px 0;
+	    text-align: center;
+	}
+	.impressum-content{
+		padding: 25px;
+		h3{
+			font-size: 26px;
+			color: #333;
+			margin-top: 50px;
+		}
+		p{
+			a{
+				text-decoration: underline;
+				color: #333;
+				&:hover{
+					text-decoration: none;
+					color: #fd0f3b;
+				}
+			}
+		}
+	}
+}
+
+@media queries and (max-width: 560px){
+	#impressum{
+		width: 100%;
+		h2{
+			margin-top: 70px;
+		}
+		.impressum-content{
+			h3{
+				margin-top: 30px;
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+#stars .content-tags {
+  border-bottom: 3px solid #dd0a6b; }
+  #stars .content-tags .fa-plus {
+    top: -41px;
+    background: #dd0a6b;
+    -webkit-box-shadow: 0 0 0 10px rgba(221, 10, 107, 0.3);
+    box-shadow: 0 0 0 10px rgba(221, 10, 107, 0.3); }
+
+/*# sourceMappingURL=stars.css.map */

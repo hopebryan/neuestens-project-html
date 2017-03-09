@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,oBAAa;EACZ,aAAa,EAAE,iBAAiB;EAChC,6BAAQ;IACP,GAAG,EAAE,KAAK;IACV,UAAU,EAAE,OAAO;IAChB,kBAAkB,EAAE,kCAAkC;IACtD,UAAU,EAAE,kCAAkC",
+"sources": ["../../scss/pages/stars.scss"],
+"names": [],
+"file": "stars.css"
+}
