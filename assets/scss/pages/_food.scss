@@ -2,7 +2,6 @@
 	.content-tags{
 		border-bottom: 3px solid #82c326;
 		.fa-plus{
-			top: -41px;
 			background: #82c326;
 		    -webkit-box-shadow: 0 0 0 10px rgba(130, 195, 38, 0.3);
 		    box-shadow: 0 0 0 10px rgba(130, 195, 38, 0.3);
@@ -23,15 +22,19 @@
 	.category-content{
 		padding: 10px 0;
 	    position: relative;
-	    width: 570px;
-		.emoticons{
-			img{
-				display: inline-block;
-			    margin: 0;
-			    padding: 0;
-			}
-
+	    width: 100%;
+		.emoji-wrap{
+			float: right;
+		    width: auto;
+		    right: 20px;
+		    top: -13px;
+		    height: auto;
+		    position: absolute;
 		}
+	}
+	img{
+		display: inline-block;
+		width: 100%;
 	}
 	.wrap-likes-comment{
 		padding: 10px 0;
@@ -46,35 +49,21 @@
 	}
 	.button-like-share{
 		.field{
-			padding: 10px 46px;
+			padding: 15px 46px;
 		    border-style: none;
 		    color: #fff;
 		    margin: 10px 0 30px;
+		    width: 49%;
 		    &:hover{
 		    	background: #333;
 		    }
 		}
 		.like-field{
 			background: #3b5998;
-			margin-right: 10px;
 		}
 		.share-field{
 			background: #83c325;
-		}
-	}
-}
-
-
-@media screen and (max-width: 624px){
-	#food-wrapper{
-		h2{
-			font-size: 20px;
-		} 
-		h3{
-			font-size: 24px;
-		}
-		.category-content{
-		    width: 100%;
+			float: right;
 		}
 	}
 }

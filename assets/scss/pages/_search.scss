@@ -6,10 +6,10 @@
 		background: #fd0f3b;
 		position: relative;
 		min-height: 94px;
-		margin-top: 113px;
+		margin-top: 140px;
 		.search-icon{
 			border-style: none;
-			top: 25px;
+			top: 50px;
 			background: transparent;
 			position: absolute;
 			font-size: 35px;
@@ -18,6 +18,8 @@
 				color: #b10021;
 				padding: 2px;
 				left: -40px;
+				font-size: 40px;
+				    top: -28px;
 			}
 		}
 		input#search-bar{

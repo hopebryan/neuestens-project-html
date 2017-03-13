@@ -13,6 +13,7 @@
 			color: #fff;
 			background: #fd0f3b;
 			padding: 20px;
+			margin-top: 45px;
 		}
 		.channel-menu-wrapper{
 			padding: 0 5px 20px;
@@ -85,9 +86,7 @@
 }
 
 
-
-
-@media screen and (max-width: 400px){
+@media screen and (max-width: 520px){
 	#channels{
 		.channel-wrap{
 			.channel-menu-wrapper{
@@ -95,7 +94,12 @@
 				    width: auto;
 					.category-logo{
 					    left: -16px;
-	    				top: 5px;
+	    				width: 60px;
+	    				top: -45px !important;
+	    				img{
+	    					top: 0;
+	    					width: 70px;
+	    				}
 					}
 				}
 			}

@@ -31,12 +31,12 @@
 							box-shadow: none;
 							font-size: 35px;
 						    border: 0;
-						    color: #fff;
+						    color: #1b1b1b;
 						    right: 0;
 						    float: none;
 						    position: relative;
 						    &:hover{
-						    	color: #fc0f3b;
+						    	opacity: 0.5;
 						    }
 						}
 						.facebook{
@@ -103,7 +103,7 @@
 					li{
 					    padding: 5px;
 						.fa{
-							font-size: 25px;
+							font-size: 25px !important;
 						}
 					}
 				}

@@ -21,14 +21,15 @@ a:focus, a:active, a:visited{
 
 
 .fa{
-	padding: 25px 27px;
+	padding: 15px 17px;
 	background: transparent;
     border-radius: 100%;
-    font-size: 35px;
+    font-size: 25px;
     color: #fff;
     right: 45px;
     float: right;
     position: absolute;
+    top: -25px;
     &:hover{
     	opacity: 0.8;
     }

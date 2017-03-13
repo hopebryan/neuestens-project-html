@@ -30,12 +30,12 @@
             box-shadow: none;
             font-size: 35px;
             border: 0;
-            color: #fff;
+            color: #1b1b1b;
             right: 0;
             float: none;
             position: relative; }
             #social-links .social-media-wrap .social-wrapper .social-menu li a .fa:hover {
-              color: #fc0f3b; }
+              opacity: 0.5; }
           #social-links .social-media-wrap .social-wrapper .social-menu li a .facebook {
             content: '\f09a'; }
           #social-links .social-media-wrap .social-wrapper .social-menu li a .fa-twitter {
@@ -77,7 +77,7 @@
     #social-links .social-media-wrap .social-wrapper .social-menu li {
       padding: 5px; }
       #social-links .social-media-wrap .social-wrapper .social-menu li .fa {
-        font-size: 25px; }
+        font-size: 25px !important; }
     #social-links .social-media-wrap .other-links .links li {
       padding: 10px; } }
 @media screen and (max-width: 464px) {
