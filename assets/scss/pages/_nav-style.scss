@@ -37,10 +37,94 @@ header {
   }
 }
 
-
-
 .above-overlay { z-index: 10001; }
 
+.regular{
+  .active-tab-beauty{
+    border-bottom: 3px solid #d2ba87;
+    a{
+      color: #d2ba87 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-foodcategory{
+    border-bottom: 3px solid #82c326;
+    a{
+      color: #82c326 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-food{
+    border-bottom: 3px solid #82c326;
+    a{
+      color: #82c326 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-liebe{
+    border-bottom: 3px solid #db2e40;
+    a{
+      color: #db2e40 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-lifestyle{
+    border-bottom: 3px solid #b5b5b5;
+    a{
+      color: #b5b5b5 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-sport{
+    border-bottom: 3px solid #15ad31;
+    a{
+      color: #15ad31 !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-star{
+    border-bottom: 3px solid #dd0a6b;
+    a{
+      color: #dd0a6b !important;
+      font-weight: bold;
+    }
+  }
+  .active-tab-stories{
+    border-bottom: 3px solid #c070ff;
+    a{
+      color: #c070ff !important;
+      font-weight: bold;
+    }
+  }  
+  .active-tab-topnews{
+    border-bottom: 3px solid #0093ff;
+    a{
+      color: #0093ff !important;
+      font-weight: bold;
+    }
+  }  
+  .active-tab-unterhaltung{
+    border-bottom: 3px solid #fabf33;
+    a{
+      color: #fabf33 !important;
+      font-weight: bold;
+    }
+  } 
+  .active-tab-wissen{
+    border-bottom: 3px solid #0093ff;
+    a{
+      color: #0093ff !important;
+      font-weight: bold;
+    }
+  }  
+  .active-tab-xtreme{
+    border-bottom: 3px solid #fff;
+    a{
+      color: #fff !important;
+      font-weight: bold;
+    }
+  }  
+}
 
 
 @media (min-width: 789px) {

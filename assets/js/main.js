@@ -33,8 +33,9 @@ $(document).ready(function(){
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: false,
-            infinite: false,
+            infinite: true,
             swipeToSlide: true,
+            centerMode: true,
             touchThreshold: 10
         });
 
@@ -45,7 +46,8 @@ $(document).ready(function(){
             arrows: false,
             infinite: true,
             swipeToSlide: true,
-        draggable: false,
+            centerMode: true,
+            draggable: false,
             touchThreshold: 10
         });
 

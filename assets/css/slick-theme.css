@@ -14,7 +14,7 @@
 .slick-prev,
 .slick-next {
   position: absolute;
-  display: block;
+  display: none !important;
   height: 20px;
   width: 20px;
   line-height: 0px;

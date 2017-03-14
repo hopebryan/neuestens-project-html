@@ -7,10 +7,10 @@
 			var DescripcionFace = "--";
 			defaults = {
 				emociones: [
-					{"emocion":"amo","TextoEmocion":"I love"}, 
+					{"emocion":"asombro","TextoEmocion":"It amazes me"},
 					{"emocion":"divierte","TextoEmocion":"I enjoy"}, 
-					{"emocion":"asombro","TextoEmocion":"It amazes me"}, 
 					{"emocion":"triste","TextoEmocion":"It saddens"}, 
+					{"emocion":"amo","TextoEmocion":"I love"},
 					{"emocion":"molesto","TextoEmocion":"It bothers me"}
 				],
 				callback: function() {

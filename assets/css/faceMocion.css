@@ -1,16 +1,15 @@
 .faceMocion {
     display: none;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    padding-right: 8px;
-    padding-left: 0px;
+    padding: 8px;
     box-sizing: border-box;
     background: white;
     color: white;
     position: absolute;
-    width: auto;
+    width: 63px;
+    top: 323px !important;
+    /*left: 80% !important;*/
     height: auto;
-    line-height: 25px;
+    line-height: 1px;
     border-radius: 50px;
     transition: .25sease-in-out;
     color: black;
@@ -20,18 +19,47 @@
     box-shadow: 4px 4px 21px -9px rgba(0, 0, 0, 0.75);
 }
 
+/*@media screen and(min-width: 1440px){
+    .faceMocion{
+        left: 83% !important;            
+    }
+}
+
+
+@media screen and(min-width: 1200px){
+    .faceMocion{
+        left: 70% !important;            
+    }
+}
+
+
+
+@media screen and(min-width: 965px){
+    .faceMocion{
+        left: 65% !important;            
+    }
+}
+
+
+
+@media screen and(min-width: 767px){
+    .faceMocion{
+        left: 30% !important;            
+    }
+}*/
+
+
 .faceMocion div {
-    margin-left: 8px;
-    float: left;
+    float: none;
     width: 48px;
     height: 48px;
     cursor: pointer;
     transition: all 0.2s ease;
+    display: block;
 }
 
 .selectorFace {
-    margin-left: 8px;
-    float: left;
+    float: none;
     width: 48px;
     height: 48px;
     cursor: pointer;
@@ -47,40 +75,39 @@
 }
 
 .molesto {
-    margin-left: 8px;
     float: left;
     width: 48px;
     height: 48px;
-    background: url(sqhTN9lgaY1.png) 0 0;
+    background: url(sqhTN9lgaY1.png) 0 -49px;
 }
 
-.asusta {
+/*.asusta {
     background: url(sqhTN9lgaY1.png) 0 -48px;
-}
+}*/
 
 .divierte {
-    background: url(sqhTN9lgaY1.png) 0 -96px;
+    background: url(sqhTN9lgaY1.png) 0 0px;
 }
 
-.gusta {
+/*.gusta {
     background: url(sqhTN9lgaY1.png) 0 -144px;
-}
+}*/
 
 .amo {
-    background: url(sqhTN9lgaY1.png) 0 -192px;
+    background: url(sqhTN9lgaY1.png) 0 -335px;
 }
 
 .triste {
-    background: url(sqhTN9lgaY1.png) 0 -240px;
+    background: url(sqhTN9lgaY1.png) 0 -145px;
 }
 
 .asombro {
-    background: url(sqhTN9lgaY1.png) 0 -288px;
+    background: url(sqhTN9lgaY1.png) 0 -431px;
 }
 
-.alegre {
+/*.alegre {
     background: url(sqhTN9lgaY1.png) 0 -336px;
-}
+}*/
 
 .MensajeTexto {
     display: none;

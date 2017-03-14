@@ -305,29 +305,26 @@ a:focus, a:active, a:visited {
       #channels .channel-wrap .channel-menu-wrapper .img-wrapper .category-logo img {
         top: 0;
         width: 70px; } }
-#landingpage {
+#landingpage .starting-page {
   width: 100%;
   height: 100%;
   text-align: center;
-  vertical-align: middle;
-  padding: 30px; }
-  #landingpage .starting-page {
-    margin: auto;
+  margin: auto;
+  display: inline-block;
+  color: #111;
+  padding: 100px 0 50px; }
+  #landingpage .starting-page h1 {
+    display: none; }
+  #landingpage .starting-page img {
     display: inline-block;
-    color: #111;
-    padding: 30px; }
-    #landingpage .starting-page h1 {
-      display: none; }
-    #landingpage .starting-page img {
-      display: inline-block;
-      margin: 0 0 35px; }
-    #landingpage .starting-page p {
-      text-align: center;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300; }
-    #landingpage .starting-page .button {
-      color: #fff;
-      font-size: 24px; }
+    margin: 0 0 35px; }
+  #landingpage .starting-page p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; }
+  #landingpage .starting-page .button {
+    color: #fff;
+    font-size: 24px; }
 
 #social-links .social-media-wrap {
   background: #e5e5e5;
@@ -492,6 +489,67 @@ header .header-wrapper {
 .above-overlay {
   z-index: 10001; }
 
+.regular .active-tab-beauty {
+  border-bottom: 3px solid #d2ba87; }
+  .regular .active-tab-beauty a {
+    color: #d2ba87 !important;
+    font-weight: bold; }
+.regular .active-tab-foodcategory {
+  border-bottom: 3px solid #82c326; }
+  .regular .active-tab-foodcategory a {
+    color: #82c326 !important;
+    font-weight: bold; }
+.regular .active-tab-food {
+  border-bottom: 3px solid #82c326; }
+  .regular .active-tab-food a {
+    color: #82c326 !important;
+    font-weight: bold; }
+.regular .active-tab-liebe {
+  border-bottom: 3px solid #db2e40; }
+  .regular .active-tab-liebe a {
+    color: #db2e40 !important;
+    font-weight: bold; }
+.regular .active-tab-lifestyle {
+  border-bottom: 3px solid #b5b5b5; }
+  .regular .active-tab-lifestyle a {
+    color: #b5b5b5 !important;
+    font-weight: bold; }
+.regular .active-tab-sport {
+  border-bottom: 3px solid #15ad31; }
+  .regular .active-tab-sport a {
+    color: #15ad31 !important;
+    font-weight: bold; }
+.regular .active-tab-star {
+  border-bottom: 3px solid #dd0a6b; }
+  .regular .active-tab-star a {
+    color: #dd0a6b !important;
+    font-weight: bold; }
+.regular .active-tab-stories {
+  border-bottom: 3px solid #c070ff; }
+  .regular .active-tab-stories a {
+    color: #c070ff !important;
+    font-weight: bold; }
+.regular .active-tab-topnews {
+  border-bottom: 3px solid #0093ff; }
+  .regular .active-tab-topnews a {
+    color: #0093ff !important;
+    font-weight: bold; }
+.regular .active-tab-unterhaltung {
+  border-bottom: 3px solid #fabf33; }
+  .regular .active-tab-unterhaltung a {
+    color: #fabf33 !important;
+    font-weight: bold; }
+.regular .active-tab-wissen {
+  border-bottom: 3px solid #0093ff; }
+  .regular .active-tab-wissen a {
+    color: #0093ff !important;
+    font-weight: bold; }
+.regular .active-tab-xtreme {
+  border-bottom: 3px solid #fff; }
+  .regular .active-tab-xtreme a {
+    color: #fff !important;
+    font-weight: bold; }
+
 @media (min-width: 789px) {
   .menu-burger {
     display: none; } }
@@ -642,7 +700,7 @@ header .header-wrapper {
 
 #contact .contact-wrapper {
   position: relative;
-  margin-top: 138px;
+  margin-top: 137px;
   width: 100%;
   display: inline-block;
   background: #fd0f3b;
@@ -670,7 +728,7 @@ header .header-wrapper {
 
 #contact .contact-wrapper {
   position: relative;
-  margin-top: 138px;
+  margin-top: 137px;
   width: 100%;
   display: inline-block;
   background: #fd0f3b;
@@ -699,17 +757,15 @@ header .header-wrapper {
 body {
   margin: 0 !important; }
 
-fonts {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px; }
-
 h2 {
   font-weight: 300;
   font-size: 24px !important;
+  font-family: 'Roboto', sans-serif !important;
   color: #fff; }
 
 h3 {
   font-size: 30px !important;
+  font-family: 'Roboto', sans-serif !important;
   color: #fff; }
 
 p {
@@ -718,7 +774,7 @@ p {
   font-family: 'Roboto', sans-serif; }
 
 .fa {
-  font-family: "FontAwesome"; }
+  font-family: "FontAwesome" !important; }
 
 .fa-plus {
   content: '\f067'; }
@@ -785,7 +841,8 @@ p {
       position: relative;
       display: inline-block;
       padding-top: 25px;
-      width: 100%; }
+      width: 100%;
+      font-family: 'Roboto', sans-serif; }
       .wrapper .content-tags .wrap-comment-share .comment {
         display: inline-block;
         padding: 0 0 0 25px;
